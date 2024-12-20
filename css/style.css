@@ -1,0 +1,444 @@
+  h1,h2,h3,h4,h5,h6,p{
+	  
+   margin:0;
+   padding:0;
+ }
+ body{
+	 overflow-x:hidden;
+ }
+ 
+  @media screen and  (max-width:992px){
+	 #slider_wrapper .carousel-control-next-icon, .carousel-control-prev-icon {
+		        margin-bottom: 29rem;
+	 }
+ }
+   @media screen and (max-width:992px){
+      .quick_links_wrapper{
+		  margin-left:7rem;
+	  }
+ }	 
+  @media screen and (max-width:992px){
+      .contact_info{
+		  margin-left:4rem;
+	  }
+ }	
+ @media screen and (max-width:992px){
+      .gallery_wrap{
+		  margin-left:4rem;
+	  }
+ }	
+@media screen and (max-width:992px){
+	  .Portfolio_images{
+	   overflow:hidden;
+   }
+      .Portfolio_images img:hover{
+      transition: transform 0.5s ease-in;
+	  }
+ }	 
+   #slider_wrapper .carousel-control-next-icon, .carousel-control-prev-icon {
+       width: 3rem;
+       height:3rem;
+       background-color:black;
+   }
+   #slider_wrapper .carousel-control-next, .carousel-control-prev{
+          padding-top: 55.5rem;
+   }
+    #slider_wrapper .carousel-control-prev {
+        right:48px !important; 
+  }
+      #slider_wrapper .carousel-caption {
+	     padding-bottom:16.25rem;
+	 }
+	 
+   #slider_wrapper{
+      background-attachment:fixed;
+   }
+   .carousel-caption h1{
+       font-weight:800;
+	   text-align:center;
+	   font-size:80px;
+   }
+   .carousel-caption h5{
+         position:relative;
+		 display:inline-block;
+   }
+   .carousel-caption h5:before{
+               content:"";
+			   width:30%;
+			   height:2px;
+			   background-color:white;
+			   position:absolute;
+			   bottom:10px;
+			   right:-50px;
+   }
+   .navbar-nav a{
+     font-size:30px;
+	 font-weight:800;
+	 color:white;
+   }
+   .navbar-nav a:hover{
+        text-decoration:line-through;
+         text-decoration-color:#C5A992;		 
+   }
+   .navbar-brand{
+	   font-family: "Playfair", serif;
+       background-color:BLACK;
+	   COLOR:WHITE;
+	   FONT-SIZE:85PX;
+	   font-weight:400;
+	   WIDTH:150PX;
+	     margin-left:-12px;
+  }   
+   .about_wrapper{
+     padding-top:100px;
+	 padding-bottom:100px;
+   }
+   .about_heading h1{
+       font-size:65px;
+	   font-weight:800;   
+   }
+   .about_heading p{
+      position:relative;
+	  display:inline-block;
+	  color:rgb(175, 175, 175);
+   }
+   .about_heading p:before{
+               content:"";
+			   width:15%;
+			   height:2px;
+			   background-color:#C5A992;
+			   position:absolute;
+			   bottom:10px;
+			   left:-30px;
+   }
+   .about_para p{
+     color:rgb(175, 175, 175);	 
+   }
+   .about_para{
+	   text-align:justify;
+   }
+   .btn_wrapper{
+      margin-right:18.6rem;
+   }
+   .btn_wrapper a{
+        border-radius:4px;
+		color:white;
+		background-color:#C5A992;
+		padding:20px 20px;
+		FONT-SIZE:20px;
+		font-weight:500;
+   }
+   .btn_wrapper a:hover{
+      background-color:black;
+	  color:white;
+   }
+   .Portfolio_wrapper{
+        padding-top:100px;
+		padding-bottom:100px;
+		background-color:black;
+   }
+   .Portfolio_heading h1{
+       font-size:65px;
+	   font-weight:800;   
+   }
+   .Portfolio_heading p{
+      position:relative;
+	  display:inline-block;
+	  color:rgb(175, 175, 175);
+   }
+    .Portfolio_heading p:before{
+               content:"";
+			   width:15%;
+			   height:2px;
+			   background-color:#C5A992;
+			   position:absolute;
+			   bottom:10px;
+			   left:-30px;
+   }
+   .portfolio_btn a{
+         border-radius:45px;
+		color:white;
+		background-color:black;
+		border:1px solid white;
+		padding:10px 15px;
+		font-weight:600; 
+   }
+   .portfolio_btn a:hover{
+     border:1px solid white;
+      background-color:white;
+	  color:#C5A992;
+   }
+   .Portfolio_images{
+	   overflow:hidden;
+   }
+   .Portfolio_images img:hover{
+      transition: transform 0.5s ease-in;
+  }   
+  .Portfolio_images img:hover{
+       transform: scale(1.2);
+  }
+   .services_wrapper{
+        padding-top:100px;
+		padding-bottom:100px;
+   }
+   .services_heading h1{
+       font-size:65px;
+	   font-weight:800;   
+   }
+   .services_heading p{
+      position:relative;
+	  display:inline-block;
+	  color:rgb(175, 175, 175);
+	
+   }
+    .services_heading p:before{
+               content:"";
+			   width:15%;
+			   height:2px;
+			   background-color:#C5A992;
+			   position:absolute;
+			   bottom:10px;
+			   left:-30px;
+   } 
+   .services_info .number{
+       font-size: 5em;
+      font-weight: 900;
+	   z-index:-1;
+      color: #F4F4F4;
+   } 
+    .services_info p{
+	    color:rgb(175, 175, 175);
+        font-size:18px;
+        margin-top:22px;		
+	}
+	.services_info h3{
+	    font-weight:900;
+		margin-bottom:22px;
+		margin-top:-65px;
+	}
+	.services_info h3:hover{
+		 color:#c5a992;
+	}
+	.subscribe_wrapper{
+	    padding-top:100px;
+		padding-bottom:100px;
+	}
+	.subscribe_detail p{
+	    color:rgb(175, 175, 175);
+        font-size:18px;
+        margin-top:22px;		
+	}
+	.subscribe_detail h1{
+	   font-size:65px;
+	   font-weight:800; 
+	}
+	#form .btn{
+	 background-color:#c5a992;
+	 padding:20px 20px;
+	 text-size:20px;
+	 font-weight:500;
+	}
+	#form .btn:hover{
+	  background-color:black;
+	  color:white;
+	}
+	.blog_wrapper{
+	  padding-top:100px;
+	  padding-bottom:100px;
+	  background-color:#f1f1f1;
+	}
+	.blog_heading p{
+      position:relative;
+	  display:inline-block;
+	  color:rgb(175, 175, 175);
+	
+   }
+    .blog_heading p:before{
+               content:"";
+			   width:15%;
+			   height:2px;
+			   background-color:#C5A992;
+			   position:absolute;
+			   bottom:10px;
+			   left:-30px;
+   } 
+	.blog_heading h1{
+       font-size:65px;
+	   font-weight:800;   
+   } 
+	.blog_details p{
+	   color:dimgrey;
+	}
+	.blog_details h6{
+	  font-weight:400;
+	  color:dimgrey;
+	}
+	.blog_details h2{
+       font-weight:800;
+   }
+ .blog_details{
+     box-shadow:-4px 4px 1px #dcdcdc6b;
+   }   
+  .blog_btn a{
+        border-radius:4px;
+		color:white;
+		background-color:#C5A992;
+		padding:20px 20px;
+		FONT-SIZE:20px;
+		font-weight:500;
+   }
+   .blog_btn a:hover{
+      background-color:black;
+	  color:white;
+   }
+.blog_btn{
+   margin-left:-48.8rem;
+}
+  @media screen and (max-width:992px) {
+	  .blog_btn{
+	margin-left:0rem;
+}
+  }
+  .blog_details{
+	  overflow:hidden;
+  }
+.blog_details img{
+    transition: transform 0.5s ease-in;
+}   
+.blog_details img:hover{
+   transform: scale(1.2);
+}
+   .contact_wrapper{
+	  padding-top:100px;
+	  padding-bottom:100px;
+      background-color:black;
+	}
+	.form_filling p span{
+      position:relative;
+	  display:inline-block;
+	  color:rgb(175, 175, 175);
+	
+   }
+    .form_filling p span:before{
+               content:"";
+			   width:15%;
+			   height:2px;
+			   background-color:#C5A992;
+			   position:absolute;
+			   bottom:10px;
+			   left:-30px;
+   } 
+	.form_filling h1{
+       font-size:65px;
+	   font-weight:800; 
+       color:white;	   
+   }
+  .form_filling p{
+    color:rgb(175, 175, 175);
+  }
+   #details .btn{
+	 background-color:#c5a992;
+	 padding:20px 20px;
+	 font-size:20px;
+	 font-weight:500;
+	}
+	#details .btn:hover{
+	  background-color:#757575;
+	  color:white;
+	}
+	.Address_bar p{
+	 color:rgb(175, 175, 175);
+	}
+	 .testimonials_wrapper{
+     padding-top:100px;
+	 padding-bottom:100px;
+   }
+   .testimonials_para p span{
+      position:relative;
+	  display:inline-block;
+	  color:rgb(175, 175, 175);
+	  letter-spacing:3px;
+   }
+  .testimonials_para p span:before{
+               content:"";
+			   width:9%;
+			   height:2px;
+			   background-color:#C5A992;
+			   position:absolute;
+			   bottom:21px;
+			   left:-27px;
+   }
+     .testimonials_para h1{
+	    font-size:65px;
+	   font-weight:800;  
+	 }
+   .testimonials_para p{
+     color:#757575;	
+    line-height:48px;
+   font-family: "Playfair", serif;
+   }
+   .lucifier{
+      color:#757575;
+   }
+   .quick_links_wrapper{
+       padding-top:90px;
+	  padding-bottom:90px;
+   }
+   .a_wrapper p{
+      color:#757575;	
+   }
+   .social_links a{
+	    text-decoration:none;
+		    color: #757575;
+	 }
+	 .social_links ul li{
+	     list-style-type:none;
+		 display:inline;
+	 }
+	 .social_links ul li a:hover{
+		 color:black;
+		 
+	 }
+   .quick_links h2{
+     font-weight:800;
+	 }
+	 
+   .quick_links ul li {
+     color:#757575;
+	margin-bottom:20px;
+	margin-left:-24px;
+	list-style-type:none;
+   }
+   .quick_links ul li:hover{
+        text-decoration:line-through;
+         text-decoration-color:#C5A992;		 
+   }
+   .contact_info p span:hover{
+	   text-decoration:underline;
+	   text-decoration-color:#C5A992;
+   }
+   .contact_info h2{
+     font-weight:800;
+	 }
+	 .contact_info p{
+	  color:#757575;
+	  line-height:35px;
+	 }
+	 .gallery_wrap h2{
+        font-weight:800;
+	 }
+	 .house_img img{
+	     height:80px;
+	     width:90px;
+		 padding-right:10px;
+	 }
+	.copyrights {
+       border-top:1px solid #efefef;
+       color:#757575;
+	}
+	.copyrights_left p{
+		 font-size:18px;
+	}
+	.copyrights_right p{
+		 font-size:18px;
+	}
