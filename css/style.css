@@ -6,21 +6,7 @@
  body{
 	 overflow-x:hidden;
  }
-  @media screen and  (max-width:768px){
-	  .about_image{
-		background-image:url(images/singleimage.jpg);
-		background-attachment:fixed;
-		background-repeat:no-repeat;
-		background-size:45%;
-	  }
- }
- @media screen and  (max-width:768px){
-	.Testimonials_image{
-	  background-image:url(images/review-bg.jpg);
-	  background-attachment:fixed;
-	  background-repeat:no-repeat;
-	  background-size:45%;
-	}
+
   @media screen and  (max-width:992px){
 	 #slider_wrapper .carousel-control-next-icon, .carousel-control-prev-icon {
 		        margin-bottom: 29rem;
